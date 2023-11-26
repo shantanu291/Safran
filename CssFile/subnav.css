@@ -1,0 +1,30 @@
+.subnav_wrapper {
+    background-color: #141d29;
+    border-bottom: 1.5px solid grey;
+
+}
+.subnav_left_content img{
+    height: 50px;
+    text-align: center;
+     margin-top: 0.7rem;
+
+}
+.right_subnav ul{
+color: white;
+border-left: 1px solid gray;
+margin-left: 10px;
+cursor: pointer;
+}
+
+.right_subnav ul li{
+ list-style: none;
+ padding: 1.5rem;
+ text-transform: uppercase;
+ font-size: x-small;
+ font-weight: 300;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.right_subnav ul li:hover{
+    border-bottom: 2.5px solid #7fb8e7;
+    /* transition: all 0.3s; */
+}

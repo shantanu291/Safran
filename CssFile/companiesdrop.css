@@ -1,0 +1,72 @@
+/*  leftside of companies navabar  */
+.companies_content_wrapper{
+width: 100vw;
+ justify-content: space-around;
+ visibility: hidden;
+ opacity: 0;
+ position: absolute;
+ top: 7%;
+ 
+}
+.left_wrapper{
+    width: 50%;
+    background: #1b1d27; 
+    color: #fff;
+    padding: 3rem;
+}
+.inner_wrapper h5{
+    letter-spacing: 0.5cap;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ul_wrapper{
+    border-left: 1px solid gray;
+    cursor: pointer;
+}
+.ul_wrapper ul li{
+ list-style: none;
+ padding-left: 1rem;
+ line-height: 2.4cap;
+}
+
+.ul_wrapper ul li:hover{
+    border-left: 3px solid #7fb8e7;
+    color: #7fb8e7;
+}
+.inner_wrapper span{
+    float: right;
+    text-transform: uppercase;
+    font-size: x-small;
+}
+.secondpartofleftul{
+    border-left: 1px solid gray;
+    height: max-content;
+}
+
+/*  rightside of companies navabar  */
+.right_wrapper{
+    width: 50%;
+    background-color: #2b2b2f;
+    padding: 2rem;
+    color: #fff;
+}
+.right_wrapper_ul{
+    border-left: 1px solid grey;
+    cursor: pointer;
+}
+.right_wrapper ul li{
+    list-style: none;
+    padding-left: 1rem;
+    line-height: 2.4cap;
+}
+.right_wrapper ul li:hover{
+    border-left: 3px solid #7fb8e7;
+    color: #7fb8e7;
+}
+.right_wrapper span{
+    float: right;
+     margin-top: 14rem;
+     font-size: x-small;
+
+}
